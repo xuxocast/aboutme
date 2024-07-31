@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+ <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -60,7 +60,7 @@
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-abacus"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-receipt"></i> <span>Resume</span></a></li>
           <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Publications</span></a></li>
-          <!--<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -84,9 +84,9 @@
         <div class="section-title">
           <h2>About</h2>
           <!-- <p>Software developer experienced in addressing complex problems and translating business requirements into practical technical
-solutions. PhD in computer science for physics. Seeking contributions to high-performance teams by creating software,
-supporting accurate data analysis, conducting research, and modelling AI/ML solutions</p>  -->      
-          </div>
+			solutions. PhD in computer science for physics. Seeking contributions to high-performance teams by creating software,
+			supporting accurate data analysis, conducting research, and modelling AI/ML solutions</p>  -->      
+        </div>
 
         <div class="row">
           <div class="col-lg-3" data-aos="fade-right">
@@ -145,22 +145,21 @@ supporting accurate data analysis, conducting research, and modelling AI/ML solu
             <span> Classification, Regression, Segmentation, Outlier detection, Natural language processing, Data
               visualisation, Data mining: NumPy, SciPy, Sklearn, Keras, Nltk, Plotly, Dash, Selenium</span></li>
           <li><i class="bi bi-book h4 align-middle"></i> 
-            <span> Pandas, Tidyverse, SQL, PySpark, BigQuery, Snowflake, Airflow</span></li>
+            <span> Pandas, Tidyverse, SQL, PySpark, BigQuery</span></li>
          <li><i class="bi bi-tools h4 align-middle"></i> 
            <span> PowerBI, Docker, GitHub, Jira, Powershell, Unix Shell, Agile (Scrum), APIs, Slack, Google Suite</span></li>
         <li><i class="bi bi-infinity h4 align-middle"></i> 
-          <span> Statistics, Partial Differential Equations, Calculus, Algebra, Stochastic processes</span></li>
+          <span> Statistics, Partial Differential Equations, Calculus, Algebra</span></li>
         <li><i class="bi bi-chat h4 align-middle"></i>
           <span> Spanish (Native), English (C1)</span></li>
       </ul>
+      </div>
       </div>
     </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
-
-
         <h3 class="resume-title">Professional Experience</h3>
         <div class="resume-item" data-aos="fade-up">
           <h4>Python Developer (Data Engineer)</h4>
@@ -252,16 +251,13 @@ supporting accurate data analysis, conducting research, and modelling AI/ML solu
               <h5>2015</h5>
               <p><em>Universidad Nacional Autónoma de México (UNAM)</em></p>
             </div>
-   
-            
-          
+                
       </div>
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="publications" class="publications section-bg">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Publications</h2>
           <ul>
@@ -299,20 +295,56 @@ supporting accurate data analysis, conducting research, and modelling AI/ML solu
         </div>
       </div>
     </section><!-- End Publications Section -->
-
-   
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" data-aos="fade-up">
+ 
+     <!-- ======= Services ======= -->
+    <section id="services" class="services" data-aos="fade-up">
       <div class="container">
-        <div class="section-title" data-aos="fade-up">
+		<div class="section-title">
+          <h2>Services</h2>
+		</div>
+		I offer multiple services as a consultant (starting at $40 AUD/hr.):
+        <div class="services-content" data-aos="fade-up">
+          	<ul>
+				<br>
+				<li><i class="bi bi-motherboard h4 align-middle"></i> 
+				   <span> Sotware development</span></li>
+				   <br>
+				<li><i class="bi bi-graph-up-arrow h4 align-middle"></i> 
+					<span> Data analysis</span></li>
+				  <br>
+				<li><i class="bi bi-database-fill-add h4 align-middle"></i> 
+					<span> Database development and Cloud deployment</span></li>
+				<br>
+				<li><i class="bi bi-amazon h4 align-middle"></i> 
+					<span>Cloud deployment</span></li>
+			</ul>
+      </div>
+    </section><!-- End Services Section -->
+ 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg" data-aos="fade-up">
+      <div class="container">
+		<div class="section-title">
           <h2>Contact</h2>
-          <p>I am located in Melbourne. Send me an email and I will respond as soon as possible.</p>
-          <br>
+		</div>
+		<div id="contact-form">
+            <form action="https://formspree.io/f/xblrogyr" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                 <br>
+                <textarea name="message" placeholder="Type your message" rows="4" cols="50" required></textarea>
+                 <br>
+                 <br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <br>
+		<div class="contact-content" data-aos="fade-up">
           <i class="bi bi-geo-alt-fill"></i>   <span>Melbourne, Australia</span>
           <br>
-          <i class="bi bi-envelope-open"></i>  <span>jesus.castrejon.fig@gmail.com</span>
-        </div>
+          <i class="bi bi-envelope-open"></i>  <span>jesus.castrejon.fig@gmail.com</span>   
+        </div> 
+        <br>
       </div>
     </section><!-- End Contact Section -->
 
